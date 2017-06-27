@@ -17,5 +17,10 @@ public class BubbleSortTest {
         int[] arr = new int[] {7, 2, 5, 1, 3, 6, 4};
         BubbleSort.sort(arr);
         logger.info(Arrays.toString(arr));
+
+        int[] arr2 = new int[] {7, 2, 5, 1, 3, 6, 4};
+        BubbleSort.sort2(arr2);
+        logger.info(Arrays.toString(arr2));
+
     }
 }
