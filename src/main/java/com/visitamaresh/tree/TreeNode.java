@@ -2,6 +2,9 @@ package com.visitamaresh.tree;
 
 import apple.laf.JRSUIUtils;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by apatta2 on 7/27/16.
  */
@@ -9,6 +12,7 @@ public class TreeNode {
     Integer data;
     TreeNode leftChild;
     TreeNode rightChild;
+    private static final int baseOffset = 20;
 
     public TreeNode(Integer data) {
         this.data = data;
