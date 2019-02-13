@@ -10,6 +10,7 @@ import java.util.*;
  */
 public class Graph {
     private static final Logger logger = LoggerFactory.getLogger( new Exception().getStackTrace()[0].getClassName() );
+
     Map<String, Boolean> visitedMap = new HashMap<String, Boolean>();
 
     List<GraphNode> graphNodes;
