@@ -1,8 +1,7 @@
 package com.visitamaresh.general;
 
-import org.junit.Test;
-
 import java.util.*;
+import org.junit.jupiter.api.Test;
 
 /**
  * Created by apatta2 on 3/30/17.

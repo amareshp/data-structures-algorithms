@@ -1,10 +1,10 @@
 package com.visitamaresh.misc;
 
-import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.List;
+import org.junit.jupiter.api.Test;
 
 /**
  * Created by apatta2 on 10/5/16.

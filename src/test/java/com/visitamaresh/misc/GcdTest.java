@@ -1,7 +1,7 @@
 package com.visitamaresh.misc;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,7 +16,7 @@ public class GcdTest {
         Gcd gcd = new Gcd();
         long result = gcd.gcd(128, 56);
         logger.info("Result: " + result);
-        Assert.assertEquals(8, result);
+        Assertions.assertEquals(8, result);
     }
 
 }

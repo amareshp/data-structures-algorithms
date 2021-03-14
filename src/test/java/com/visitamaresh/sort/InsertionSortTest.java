@@ -1,6 +1,5 @@
 package com.visitamaresh.sort;
 
-import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,7 +11,6 @@ import java.util.Arrays;
 public class InsertionSortTest {
     private static Logger logger = LoggerFactory.getLogger(InsertionSortTest.class);
 
-    @Test
     public void test1() {
         int[] arr = new int[] {7, 2, 5, 1, 3, 6, 4};
         InsertionSort.sort(arr);

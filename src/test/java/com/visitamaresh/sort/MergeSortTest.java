@@ -1,7 +1,7 @@
 package com.visitamaresh.sort;
 
 import com.visitamaresh.sort.MergeSort;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 /**
  * Created by apatta2 on 7/27/16.
